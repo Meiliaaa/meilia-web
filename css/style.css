@@ -1,3 +1,18 @@
+@media (max-width: 580px) {
+  .sidebar {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: static !important;
+    max-height: none !important;
+  }
+  .info_more-btn {
+    display: none !important;
+  }
+}
 :root {
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
