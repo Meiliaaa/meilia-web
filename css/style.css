@@ -419,6 +419,13 @@ main {
   border-radius: 8px;
   margin: auto;
 }
+
+@media (max-width: 580px) {
+  .service-icon-box img {
+    width: 48px;
+    height: 48px;
+  }
+}
 .service-content-box { text-align: center; }
 .service-item-title { margin-bottom: 7px; }
 .service-item-text {
