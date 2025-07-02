@@ -1,21 +1,16 @@
 @media (max-width: 580px) {
-  .info_more-btn {
-    display: block !important;
-    width: 100%;
-    font-size: 18px;
-    padding: 16px 0;
-    position: static;
-    margin-top: 10px;
-    border-radius: 12px;
-    text-align: center;
-  }
   .sidebar {
-    max-height: 112px;
-    transition: var(--transition-2);
-    overflow: hidden;
+    max-height: none !important;
+    overflow: visible !important;
   }
-  .sidebar.active {
-    max-height: 405px;
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: static !important;
+    max-height: none !important;
+  }
+  .info_more-btn {
+    display: none !important;
   }
 }
 :root {
