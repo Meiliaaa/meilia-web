@@ -1304,7 +1304,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 /**
  * responsive larger than 1250px screen
  */
-@media (min-width: 1250px) {
+@media (max-width: 579px) {
+  .avatar-box img { width: 90px; height: 90px; }
+}
   /**
    * RESET
    */
